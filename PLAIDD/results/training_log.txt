@@ -1,0 +1,334 @@
+
+Loading data:   0%|          | 0/229 [00:00<?, ?it/s]
+Loading data:   2%|▏         | 5/229 [00:00<00:04, 49.59it/s]
+Loading data:   6%|▌         | 14/229 [00:00<00:03, 68.83it/s]
+Loading data:   9%|▉         | 21/229 [00:00<00:03, 61.63it/s]
+Loading data:  12%|█▏        | 28/229 [00:00<00:03, 61.90it/s]
+Loading data:  16%|█▌        | 36/229 [00:00<00:02, 67.42it/s]
+Loading data:  19%|█▉        | 43/229 [00:00<00:02, 64.87it/s]
+Loading data:  22%|██▏       | 51/229 [00:00<00:02, 68.00it/s]
+Loading data:  25%|██▌       | 58/229 [00:00<00:02, 66.54it/s]
+Loading data:  28%|██▊       | 65/229 [00:01<00:02, 65.00it/s]
+Loading data:  31%|███▏      | 72/229 [00:01<00:02, 59.91it/s]
+Loading data:  35%|███▍      | 80/229 [00:01<00:02, 64.07it/s]
+Loading data:  38%|███▊      | 87/229 [00:01<00:02, 64.23it/s]
+Loading data:  41%|████      | 94/229 [00:01<00:02, 65.44it/s]
+Loading data:  44%|████▍     | 101/229 [00:01<00:02, 62.17it/s]
+Loading data:  48%|████▊     | 110/229 [00:01<00:01, 68.58it/s]
+Loading data:  51%|█████     | 117/229 [00:01<00:01, 64.36it/s]
+Loading data:  54%|█████▍    | 124/229 [00:01<00:01, 61.50it/s]
+Loading data:  57%|█████▋    | 131/229 [00:02<00:01, 58.42it/s]
+Loading data:  60%|█████▉    | 137/229 [00:02<00:01, 56.35it/s]
+Loading data:  62%|██████▏   | 143/229 [00:02<00:01, 52.55it/s]
+Loading data:  65%|██████▌   | 149/229 [00:02<00:01, 47.25it/s]
+Loading data:  67%|██████▋   | 154/229 [00:02<00:01, 44.08it/s]
+Loading data:  69%|██████▉   | 159/229 [00:02<00:01, 41.97it/s]
+Loading data:  72%|███████▏  | 166/229 [00:02<00:01, 47.11it/s]
+Loading data:  75%|███████▌  | 172/229 [00:02<00:01, 49.69it/s]
+Loading data:  78%|███████▊  | 178/229 [00:03<00:01, 50.03it/s]
+Loading data:  81%|████████  | 186/229 [00:03<00:00, 56.81it/s]
+Loading data:  85%|████████▍ | 194/229 [00:03<00:00, 61.63it/s]
+Loading data:  88%|████████▊ | 201/229 [00:03<00:00, 61.39it/s]
+Loading data:  91%|█████████ | 208/229 [00:03<00:00, 57.70it/s]
+Loading data:  93%|█████████▎| 214/229 [00:03<00:00, 55.03it/s]
+Loading data:  96%|█████████▌| 220/229 [00:03<00:00, 52.06it/s]
+Loading data:  99%|█████████▉| 227/229 [00:03<00:00, 56.11it/s]
+Loading data: 100%|██████████| 229/229 [00:03<00:00, 57.93it/s]
+
+Loading data:   0%|          | 0/85 [00:00<?, ?it/s]
+Loading data:  11%|█         | 9/85 [00:00<00:00, 89.79it/s]
+Loading data:  21%|██        | 18/85 [00:00<00:00, 75.05it/s]
+Loading data:  33%|███▎      | 28/85 [00:00<00:00, 81.70it/s]
+Loading data:  44%|████▎     | 37/85 [00:00<00:00, 84.47it/s]
+Loading data:  56%|█████▋    | 48/85 [00:00<00:00, 90.90it/s]
+Loading data:  68%|██████▊   | 58/85 [00:00<00:00, 93.49it/s]
+Loading data:  84%|████████▎ | 71/85 [00:00<00:00, 104.10it/s]
+Loading data: 100%|██████████| 85/85 [00:00<00:00, 115.05it/s]
+Loading data: 100%|██████████| 85/85 [00:00<00:00, 99.21it/s] 
+
+Loading data:   0%|          | 0/90 [00:00<?, ?it/s]
+Loading data:   4%|▍         | 4/90 [00:00<00:02, 38.49it/s]
+Loading data:  17%|█▋        | 15/90 [00:00<00:00, 79.20it/s]
+Loading data:  27%|██▋       | 24/90 [00:00<00:00, 83.02it/s]
+Loading data:  37%|███▋      | 33/90 [00:00<00:00, 73.30it/s]
+Loading data:  47%|████▋     | 42/90 [00:00<00:00, 77.88it/s]
+Loading data:  56%|█████▌    | 50/90 [00:00<00:00, 55.29it/s]
+Loading data:  63%|██████▎   | 57/90 [00:00<00:00, 52.95it/s]
+Loading data:  71%|███████   | 64/90 [00:01<00:00, 55.99it/s]
+Loading data:  79%|███████▉  | 71/90 [00:01<00:00, 57.68it/s]
+Loading data:  87%|████████▋ | 78/90 [00:01<00:00, 50.43it/s]
+Loading data:  93%|█████████▎| 84/90 [00:01<00:00, 50.05it/s]
+Loading data: 100%|██████████| 90/90 [00:01<00:00, 51.65it/s]
+Loading data: 100%|██████████| 90/90 [00:01<00:00, 57.51it/s]
+
+Loading data:   0%|          | 0/208 [00:00<?, ?it/s]
+Loading data:   3%|▎         | 6/208 [00:00<00:03, 59.24it/s]
+Loading data:   7%|▋         | 14/208 [00:00<00:03, 64.08it/s]
+Loading data:  11%|█         | 22/208 [00:00<00:02, 70.26it/s]
+Loading data:  14%|█▍        | 30/208 [00:00<00:02, 72.33it/s]
+Loading data:  19%|█▉        | 39/208 [00:00<00:02, 78.35it/s]
+Loading data:  23%|██▎       | 48/208 [00:00<00:01, 81.55it/s]
+Loading data:  27%|██▋       | 57/208 [00:00<00:01, 80.61it/s]
+Loading data:  33%|███▎      | 69/208 [00:00<00:01, 87.55it/s]
+Loading data:  38%|███▊      | 78/208 [00:01<00:01, 70.61it/s]
+Loading data:  41%|████▏     | 86/208 [00:01<00:01, 63.18it/s]
+Loading data:  45%|████▍     | 93/208 [00:01<00:02, 56.58it/s]
+Loading data:  48%|████▊     | 99/208 [00:01<00:02, 52.73it/s]
+Loading data:  50%|█████     | 105/208 [00:01<00:02, 50.12it/s]
+Loading data:  53%|█████▎    | 111/208 [00:01<00:01, 51.53it/s]
+Loading data:  57%|█████▋    | 118/208 [00:01<00:01, 54.10it/s]
+Loading data:  60%|█████▉    | 124/208 [00:01<00:01, 55.26it/s]
+Loading data:  62%|██████▎   | 130/208 [00:02<00:01, 53.46it/s]
+Loading data:  65%|██████▌   | 136/208 [00:02<00:01, 51.27it/s]
+Loading data:  68%|██████▊   | 142/208 [00:02<00:01, 49.18it/s]
+Loading data:  71%|███████   | 147/208 [00:02<00:01, 47.88it/s]
+Loading data:  73%|███████▎  | 152/208 [00:02<00:01, 46.66it/s]
+Loading data:  75%|███████▌  | 157/208 [00:02<00:01, 45.80it/s]
+Loading data:  78%|███████▊  | 162/208 [00:02<00:01, 45.44it/s]
+Loading data:  80%|████████  | 167/208 [00:02<00:00, 46.26it/s]
+Loading data:  83%|████████▎ | 172/208 [00:03<00:00, 38.30it/s]
+Loading data:  85%|████████▌ | 177/208 [00:03<00:00, 38.24it/s]
+Loading data:  88%|████████▊ | 183/208 [00:03<00:00, 42.23it/s]
+Loading data:  90%|█████████ | 188/208 [00:03<00:00, 44.08it/s]
+Loading data:  94%|█████████▍| 195/208 [00:03<00:00, 49.86it/s]
+Loading data:  97%|█████████▋| 202/208 [00:03<00:00, 54.39it/s]
+Loading data: 100%|██████████| 208/208 [00:03<00:00, 55.46it/s]
+
+Loading data:   0%|          | 0/75 [00:00<?, ?it/s]
+Loading data:   9%|▉         | 7/75 [00:00<00:01, 66.43it/s]
+Loading data:  20%|██        | 15/75 [00:00<00:00, 71.66it/s]
+Loading data:  31%|███       | 23/75 [00:00<00:00, 64.70it/s]
+Loading data:  40%|████      | 30/75 [00:00<00:00, 62.42it/s]
+Loading data:  49%|████▉     | 37/75 [00:00<00:00, 42.20it/s]
+Loading data:  56%|█████▌    | 42/75 [00:00<00:00, 35.26it/s]
+Loading data:  67%|██████▋   | 50/75 [00:01<00:00, 43.75it/s]
+Loading data:  75%|███████▍  | 56/75 [00:01<00:00, 40.83it/s]
+Loading data:  83%|████████▎ | 62/75 [00:01<00:00, 42.39it/s]
+Loading data:  89%|████████▉ | 67/75 [00:01<00:00, 40.71it/s]
+Loading data:  99%|█████████▊| 74/75 [00:01<00:00, 47.19it/s]
+Loading data: 100%|██████████| 75/75 [00:01<00:00, 46.83it/s]
+
+Loading data:   0%|          | 0/73 [00:00<?, ?it/s]
+Loading data:  21%|██        | 15/73 [00:00<00:00, 147.56it/s]
+Loading data:  41%|████      | 30/73 [00:00<00:00, 148.47it/s]
+Loading data:  62%|██████▏   | 45/73 [00:00<00:00, 130.10it/s]
+Loading data:  81%|████████  | 59/73 [00:00<00:00, 110.15it/s]
+Loading data:  97%|█████████▋| 71/73 [00:00<00:00, 105.58it/s]
+Loading data: 100%|██████████| 73/73 [00:00<00:00, 113.54it/s]
+
+Synthesizing aggregates:   0%|          | 0/20000 [00:00<?, ?it/s]
+Synthesizing aggregates:   5%|▍         | 995/20000 [00:00<00:01, 9949.06it/s]
+Synthesizing aggregates:  10%|▉         | 1998/20000 [00:00<00:01, 9984.98it/s]
+Synthesizing aggregates:  15%|█▍        | 2997/20000 [00:00<00:01, 9972.21it/s]
+Synthesizing aggregates:  20%|█▉        | 3999/20000 [00:00<00:01, 9988.77it/s]
+Synthesizing aggregates:  25%|██▌       | 5010/20000 [00:00<00:01, 10028.99it/s]
+Synthesizing aggregates:  30%|███       | 6015/20000 [00:00<00:01, 10034.02it/s]
+Synthesizing aggregates:  35%|███▌      | 7024/20000 [00:00<00:01, 10047.52it/s]
+Synthesizing aggregates:  40%|████      | 8029/20000 [00:00<00:01, 10020.62it/s]
+Synthesizing aggregates:  45%|████▌     | 9033/20000 [00:00<00:01, 10021.06it/s]
+Synthesizing aggregates:  50%|█████     | 10038/20000 [00:01<00:00, 10028.14it/s]
+Synthesizing aggregates:  55%|█████▌    | 11041/20000 [00:01<00:00, 10017.94it/s]
+Synthesizing aggregates:  60%|██████    | 12044/20000 [00:01<00:00, 10021.14it/s]
+Synthesizing aggregates:  65%|██████▌   | 13047/20000 [00:01<00:00, 10017.50it/s]
+Synthesizing aggregates:  70%|███████   | 14065/20000 [00:01<00:00, 10066.39it/s]
+Synthesizing aggregates:  75%|███████▌  | 15072/20000 [00:01<00:00, 10042.26it/s]
+Synthesizing aggregates:  80%|████████  | 16079/20000 [00:01<00:00, 10048.92it/s]
+Synthesizing aggregates:  85%|████████▌ | 17089/20000 [00:01<00:00, 10063.57it/s]
+Synthesizing aggregates:  90%|█████████ | 18096/20000 [00:01<00:00, 10016.84it/s]
+Synthesizing aggregates:  95%|█████████▌| 19098/20000 [00:01<00:00, 10001.62it/s]
+Synthesizing aggregates: 100%|██████████| 20000/20000 [00:01<00:00, 10018.54it/s]
+
+Extracting features:   0%|          | 0/20000 [00:00<?, ?it/s]
+Extracting features:   1%|          | 200/20000 [00:00<00:09, 1995.50it/s]
+Extracting features:   2%|▏         | 400/20000 [00:00<00:09, 1994.67it/s]
+Extracting features:   3%|▎         | 600/20000 [00:00<00:09, 1995.85it/s]
+Extracting features:   4%|▍         | 801/20000 [00:00<00:09, 1999.40it/s]
+Extracting features:   5%|▌         | 1001/20000 [00:00<00:09, 1998.61it/s]
+Extracting features:   6%|▌         | 1201/20000 [00:00<00:09, 1998.93it/s]
+Extracting features:   7%|▋         | 1401/20000 [00:00<00:09, 1999.03it/s]
+Extracting features:   8%|▊         | 1601/20000 [00:00<00:09, 1994.29it/s]
+Extracting features:   9%|▉         | 1801/20000 [00:00<00:09, 1992.93it/s]
+Extracting features:  10%|█         | 2001/20000 [00:01<00:09, 1994.29it/s]
+Extracting features:  11%|█         | 2201/20000 [00:01<00:08, 1992.45it/s]
+Extracting features:  12%|█▏        | 2403/20000 [00:01<00:08, 1998.48it/s]
+Extracting features:  13%|█▎        | 2604/20000 [00:01<00:08, 2000.02it/s]
+Extracting features:  14%|█▍        | 2806/20000 [00:01<00:08, 2003.26it/s]
+Extracting features:  15%|█▌        | 3007/20000 [00:01<00:08, 2001.60it/s]
+Extracting features:  16%|█▌        | 3208/20000 [00:01<00:08, 2002.23it/s]
+Extracting features:  17%|█▋        | 3409/20000 [00:01<00:08, 2000.81it/s]
+Extracting features:  18%|█▊        | 3610/20000 [00:01<00:08, 1999.00it/s]
+Extracting features:  19%|█▉        | 3810/20000 [00:01<00:08, 1995.12it/s]
+Extracting features:  20%|██        | 4011/20000 [00:02<00:08, 1997.24it/s]
+Extracting features:  21%|██        | 4212/20000 [00:02<00:07, 1998.80it/s]
+Extracting features:  22%|██▏       | 4413/20000 [00:02<00:07, 2001.53it/s]
+Extracting features:  23%|██▎       | 4614/20000 [00:02<00:07, 1998.96it/s]
+Extracting features:  24%|██▍       | 4814/20000 [00:02<00:07, 1997.94it/s]
+Extracting features:  25%|██▌       | 5015/20000 [00:02<00:07, 1999.19it/s]
+Extracting features:  26%|██▌       | 5216/20000 [00:02<00:07, 2001.95it/s]
+Extracting features:  27%|██▋       | 5417/20000 [00:02<00:07, 2004.18it/s]
+Extracting features:  28%|██▊       | 5618/20000 [00:02<00:07, 2001.00it/s]
+Extracting features:  29%|██▉       | 5819/20000 [00:02<00:07, 1994.27it/s]
+Extracting features:  30%|███       | 6019/20000 [00:03<00:07, 1994.73it/s]
+Extracting features:  31%|███       | 6219/20000 [00:03<00:06, 1991.53it/s]
+Extracting features:  32%|███▏      | 6420/20000 [00:03<00:06, 1996.36it/s]
+Extracting features:  33%|███▎      | 6620/20000 [00:03<00:06, 1997.38it/s]
+Extracting features:  34%|███▍      | 6820/20000 [00:03<00:06, 1998.04it/s]
+Extracting features:  35%|███▌      | 7021/20000 [00:03<00:06, 2001.43it/s]
+Extracting features:  36%|███▌      | 7222/20000 [00:03<00:06, 2001.01it/s]
+Extracting features:  37%|███▋      | 7423/20000 [00:03<00:06, 1994.66it/s]
+Extracting features:  38%|███▊      | 7623/20000 [00:03<00:06, 1977.02it/s]
+Extracting features:  39%|███▉      | 7821/20000 [00:03<00:06, 1961.67it/s]
+Extracting features:  40%|████      | 8018/20000 [00:04<00:06, 1951.35it/s]
+Extracting features:  41%|████      | 8215/20000 [00:04<00:06, 1954.18it/s]
+Extracting features:  42%|████▏     | 8414/20000 [00:04<00:05, 1963.52it/s]
+Extracting features:  43%|████▎     | 8614/20000 [00:04<00:05, 1972.91it/s]
+Extracting features:  44%|████▍     | 8812/20000 [00:04<00:05, 1974.73it/s]
+Extracting features:  45%|████▌     | 9013/20000 [00:04<00:05, 1983.16it/s]
+Extracting features:  46%|████▌     | 9215/20000 [00:04<00:05, 1991.80it/s]
+Extracting features:  47%|████▋     | 9416/20000 [00:04<00:05, 1995.56it/s]
+Extracting features:  48%|████▊     | 9617/20000 [00:04<00:05, 1998.83it/s]
+Extracting features:  49%|████▉     | 9818/20000 [00:04<00:05, 2001.44it/s]
+Extracting features:  50%|█████     | 10020/20000 [00:05<00:04, 2004.73it/s]
+Extracting features:  51%|█████     | 10222/20000 [00:05<00:04, 2006.62it/s]
+Extracting features:  52%|█████▏    | 10423/20000 [00:05<00:04, 2004.30it/s]
+Extracting features:  53%|█████▎    | 10624/20000 [00:05<00:04, 2000.77it/s]
+Extracting features:  54%|█████▍    | 10825/20000 [00:05<00:04, 1974.23it/s]
+Extracting features:  55%|█████▌    | 11023/20000 [00:05<00:04, 1942.34it/s]
+Extracting features:  56%|█████▌    | 11218/20000 [00:05<00:04, 1938.18it/s]
+Extracting features:  57%|█████▋    | 11413/20000 [00:05<00:04, 1941.14it/s]
+Extracting features:  58%|█████▊    | 11608/20000 [00:05<00:04, 1940.37it/s]
+Extracting features:  59%|█████▉    | 11803/20000 [00:05<00:04, 1939.13it/s]
+Extracting features:  60%|█████▉    | 11997/20000 [00:06<00:04, 1932.86it/s]
+Extracting features:  61%|██████    | 12191/20000 [00:06<00:04, 1930.06it/s]
+Extracting features:  62%|██████▏   | 12393/20000 [00:06<00:03, 1954.03it/s]
+Extracting features:  63%|██████▎   | 12595/20000 [00:06<00:03, 1972.82it/s]
+Extracting features:  64%|██████▍   | 12793/20000 [00:06<00:03, 1966.32it/s]
+Extracting features:  65%|██████▍   | 12990/20000 [00:06<00:03, 1950.68it/s]
+Extracting features:  66%|██████▌   | 13186/20000 [00:06<00:03, 1946.16it/s]
+Extracting features:  67%|██████▋   | 13381/20000 [00:06<00:03, 1943.92it/s]
+Extracting features:  68%|██████▊   | 13576/20000 [00:06<00:03, 1940.09it/s]
+Extracting features:  69%|██████▉   | 13772/20000 [00:06<00:03, 1944.00it/s]
+Extracting features:  70%|██████▉   | 13971/20000 [00:07<00:03, 1957.63it/s]
+Extracting features:  71%|███████   | 14167/20000 [00:07<00:02, 1956.28it/s]
+Extracting features:  72%|███████▏  | 14368/20000 [00:07<00:02, 1971.04it/s]
+Extracting features:  73%|███████▎  | 14566/20000 [00:07<00:02, 1969.80it/s]
+Extracting features:  74%|███████▍  | 14763/20000 [00:07<00:02, 1935.67it/s]
+Extracting features:  75%|███████▍  | 14957/20000 [00:07<00:02, 1929.58it/s]
+Extracting features:  76%|███████▌  | 15151/20000 [00:07<00:02, 1929.63it/s]
+Extracting features:  77%|███████▋  | 15347/20000 [00:07<00:02, 1936.67it/s]
+Extracting features:  78%|███████▊  | 15543/20000 [00:07<00:02, 1942.20it/s]
+Extracting features:  79%|███████▊  | 15742/20000 [00:07<00:02, 1954.60it/s]
+Extracting features:  80%|███████▉  | 15942/20000 [00:08<00:02, 1965.66it/s]
+Extracting features:  81%|████████  | 16142/20000 [00:08<00:01, 1975.36it/s]
+Extracting features:  82%|████████▏ | 16341/20000 [00:08<00:01, 1977.56it/s]
+Extracting features:  83%|████████▎ | 16540/20000 [00:08<00:01, 1980.97it/s]
+Extracting features:  84%|████████▎ | 16739/20000 [00:08<00:01, 1962.59it/s]
+Extracting features:  85%|████████▍ | 16936/20000 [00:08<00:01, 1956.62it/s]
+Extracting features:  86%|████████▌ | 17132/20000 [00:08<00:01, 1955.40it/s]
+Extracting features:  87%|████████▋ | 17328/20000 [00:08<00:01, 1950.21it/s]
+Extracting features:  88%|████████▊ | 17524/20000 [00:08<00:01, 1946.14it/s]
+Extracting features:  89%|████████▊ | 17719/20000 [00:08<00:01, 1941.60it/s]
+Extracting features:  90%|████████▉ | 17915/20000 [00:09<00:01, 1945.42it/s]
+Extracting features:  91%|█████████ | 18112/20000 [00:09<00:00, 1952.09it/s]
+Extracting features:  92%|█████████▏| 18309/20000 [00:09<00:00, 1954.60it/s]
+Extracting features:  93%|█████████▎| 18509/20000 [00:09<00:00, 1966.18it/s]
+Extracting features:  94%|█████████▎| 18706/20000 [00:09<00:00, 1938.58it/s]
+Extracting features:  94%|█████████▍| 18900/20000 [00:09<00:00, 1909.26it/s]
+Extracting features:  95%|█████████▌| 19092/20000 [00:09<00:00, 1883.58it/s]
+Extracting features:  96%|█████████▋| 19282/20000 [00:09<00:00, 1887.13it/s]
+Extracting features:  97%|█████████▋| 19474/20000 [00:09<00:00, 1894.37it/s]
+Extracting features:  98%|█████████▊| 19667/20000 [00:09<00:00, 1903.91it/s]
+Extracting features:  99%|█████████▉| 19861/20000 [00:10<00:00, 1912.38it/s]
+Extracting features: 100%|██████████| 20000/20000 [00:10<00:00, 1967.68it/s]
+=== NILM Deep Learning Disaggregator ===
+Device: cuda
+
+[1/6] Parsing metadata...
+
+[2/6] Loading windows from CSV...
+Loading 'Microwave' (Found 229 files)...
+Loaded 910 windows for Microwave.
+Loading 'Heater' (Found 85 files)...
+Loaded 197 windows for Heater.
+Loading 'Fridge' (Found 90 files)...
+Loaded 435 windows for Fridge.
+Loading 'Air Conditioner' (Found 208 files)...
+Loaded 929 windows for Air Conditioner.
+Loading 'Washing Machine' (Found 75 files)...
+Loaded 463 windows for Washing Machine.
+Loading 'Vacuum' (Found 73 files)...
+Loaded 165 windows for Vacuum.
+
+Generating EDA Plots...
+EDA plots saved to 'results' folder.
+
+[3/6] Synthesizing aggregate signals and augmenting...
+Created 20000 aggregate windows.
+
+[4/6] Extracting electrical and spectral features...
+Feature matrix shape: (20000, 247)
+Normalizing features and targets...
+
+[5/6] Hyperparameters successfully locked...
+
+[6/6] Training best model and evaluating...
+Epoch 5/150 - Train Loss: 90.1494, Val Loss: 90.2829
+Epoch 10/150 - Train Loss: 75.0652, Val Loss: 76.6547
+Epoch 15/150 - Train Loss: 66.7177, Val Loss: 72.2484
+Epoch 20/150 - Train Loss: 59.7042, Val Loss: 68.8811
+Epoch 25/150 - Train Loss: 56.2196, Val Loss: 65.6441
+Epoch 30/150 - Train Loss: 52.7362, Val Loss: 65.3943
+Epoch 35/150 - Train Loss: 50.0941, Val Loss: 63.7299
+Epoch 40/150 - Train Loss: 47.7646, Val Loss: 63.0035
+Epoch 45/150 - Train Loss: 45.5092, Val Loss: 61.9841
+Epoch 50/150 - Train Loss: 43.7452, Val Loss: 62.8464
+Epoch 55/150 - Train Loss: 42.5008, Val Loss: 61.0318
+Epoch 60/150 - Train Loss: 41.3386, Val Loss: 61.6741
+Epoch 65/150 - Train Loss: 39.3081, Val Loss: 59.7558
+Epoch 70/150 - Train Loss: 35.9214, Val Loss: 58.5163
+Epoch 75/150 - Train Loss: 33.8664, Val Loss: 57.2972
+Epoch 80/150 - Train Loss: 32.8064, Val Loss: 57.9208
+Epoch 85/150 - Train Loss: 31.9146, Val Loss: 57.6809
+Epoch 90/150 - Train Loss: 30.1254, Val Loss: 57.6243
+Epoch 95/150 - Train Loss: 29.7178, Val Loss: 57.3079
+Epoch 100/150 - Train Loss: 28.8697, Val Loss: 57.1271
+Epoch 105/150 - Train Loss: 28.5571, Val Loss: 57.2578
+Epoch 110/150 - Train Loss: 28.1152, Val Loss: 56.9845
+Epoch 115/150 - Train Loss: 27.9021, Val Loss: 57.1307
+Epoch 120/150 - Train Loss: 27.6713, Val Loss: 57.0169
+Epoch 125/150 - Train Loss: 27.7281, Val Loss: 56.9383
+Epoch 130/150 - Train Loss: 27.5977, Val Loss: 56.8056
+
+--- Test Metrics ---
+Microwave:
+  MAE:  12.90 W
+  RMSE: 41.84 W
+  R2:   0.9842
+  NDE:  0.0131
+Heater:
+  MAE:  87.76 W
+  RMSE: 242.16 W
+  R2:   0.5880
+  NDE:  0.3227
+Fridge:
+  MAE:  76.34 W
+  RMSE: 187.65 W
+  R2:   0.1225
+  NDE:  0.7612
+Air Conditioner:
+  MAE:  37.77 W
+  RMSE: 155.75 W
+  R2:   0.6175
+  NDE:  0.3680
+Washing Machine:
+  MAE:  59.47 W
+  RMSE: 147.78 W
+  R2:   -0.0161
+  NDE:  0.8609
+Vacuum:
+  MAE:  71.74 W
+  RMSE: 177.21 W
+  R2:   0.6589
+  NDE:  0.2649
+
+Pipeline complete! Check 'results' folder for all plots.

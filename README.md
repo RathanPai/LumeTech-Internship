@@ -1,92 +1,43 @@
-# NILM Project – IAWE & Seq2Point Pipelines
+# Non-Intrusive Load Monitoring (NILM) Projects
 
-## 📚 Overview
-This repository contains two Non‑Intrusive Load Monitoring (NILM) pipelines built around the **IAWE** residential dataset and a **Seq2Point** deep‑learning framework. The goal is to demonstrate high‑quality disaggregation of multiple appliances from mains data.
+This repository contains a collection of deep learning-based Non-Intrusive Load Monitoring (NILM) projects. NILM, or energy disaggregation, is the task of deducing the power consumption of individual appliances from a single aggregate master meter reading. 
 
----
-
-## 📂 Directory Structure
-```
-/data/Projects/NILM/
-├── IAWE/                # IAWE dataset pipeline 
-│   ├── Data/            # Raw .h5 file (iawe.h5)
-│   ├── NILM_IAWE_Disaggregation.ipynb   # Jupyter notebook (training & evaluation)
-│   ├── create_notebook.py  # Python script that generates the notebook
-│   └── README.md       # Dataset‑specific documentation
-│
-├── Seq2point/          # Generic Seq2Point framework
-│   ├── generate_notebook.py   # Notebook generator for generic datasets
-│   └── config.yaml      # Configuration file
-│
-└── README.md           # **This file** – project‑wide overview
-```
+This repository is divided into three distinct sub-projects, each tackling energy disaggregation with different datasets, architectures, and objectives.
 
 ---
 
-## 📊 Dataset Comparison & Selection Justification
-When building a NILM pipeline, selecting the right dataset is critical. Here is how the **IAWE** dataset compares to other standard academic datasets, and why it was chosen for this project:
+## 1. Multi-Appliance NILM Disaggregator (PLAID Dataset)
+**Directory:** [`PLAIDD`](./PLAIDD)
 
-| Dataset | Location | Sampling Rate | Signals Provided | Pros / Cons |
-|---------|----------|---------------|------------------|-------------|
-| **IAWE** | India | **1 Hz** | $V_{rms}$, $I_{rms}$, Active, Reactive, Apparent Power, Frequency, PF | **Chosen:** Excellent ambient weather context (heavy AC loads), provides full voltage/current metrics, and captures simultaneous heavy dynamic loads (AC + Washing Machine). |
-| **REFIT** | UK | 8 seconds | Active Power only | **Con:** Missing $V_{rms}$ and $I_{rms}$, which restricts advanced feature engineering. |
-| **REDD** | USA | 1 Hz (Mains), 3 sec (App) | Active Power, Apparent Power | **Con:** Good baseline, but heavily biased towards North American heating systems rather than cooling/dynamic ambient loads. |
-| **UK-DALE** | UK | 1 Hz / 16 kHz | Active Power, Apparent Power, raw V/I (subset) | **Con:** Very large and complex to parse; 16kHz raw waveform data is overkill for basic Seq2Point without immense computational resources. |
-| **PLAID / BLUED** | USA | 12 kHz - 30 kHz | Raw Voltage & Current Waveforms | **Con:** Excellent for harmonic/FFT analysis, but strictly event-based (PLAID) or computationally expensive for simple week-long time-series deep learning. |
+This project implements a state-of-the-art disaggregator using high-frequency data to separate six simultaneous appliances (Microwave, Heater, Fridge, Air Conditioner, Washing Machine, and Vacuum).
 
----
+* **Features:** Extracts perfectly linear, additive 247-dimensional features using Fast Fourier Transforms (FFT) for the first 60 harmonics (up to 3600Hz) from 30kHz high-frequency data.
+* **Architecture (`NNAN_Model`):** A custom hybrid network featuring 1D CNNs, LSTMs, and Attention mechanisms designed to capture high-level spectral patterns and temporal dynamics.
+* **Key Innovations:** Dynamic target scaling with Huber loss, realistic sparse data synthesis, and automated hyperparameter optimization using Optuna.
 
-## 🗂️ IAWE Dataset Pipeline
-### What is IAWE?
-- **Source:** Indian dataset collected in New Delhi.
-- **Sampling:** Raw sensor data at roughly **1 Hz**.
-- **Available Signals:** Voltage ($V_{rms}$), Current ($I_{rms}$), Active Power, Reactive Power, Apparent Power, Frequency, Power Factor.
-- **Target Appliances:** Air Conditioner and Washing Machine.
+## 2. Multi-Target NILM on the IAWE Dataset (Experimentational)
+**Directory:** [`IAWE`](./IAWE)
 
-### Preprocessing (IAWE)
-1. **Custom HDF5 loader:** Uses the `tables` library to bypass pandas HDFStore string‑encoding issues found in older `.h5` files.
-2. **Timestamp handling:** Converts Unix timestamps to timezone‑aware `Asia/Kolkata` datetime.
-3. **Resampling:** Aggregates the 1 Hz data to a **uniform 1‑minute grid** (`.resample('1min').mean()`).
-4. **Missing‑value imputation:** Forward‑fills (`ffill`) any gaps caused by sensor dropouts.
-5. **Standardization:** Each signal (Mains, Washing Machine, AC) is scaled using a `StandardScaler`.
-6. **Windowing:** Slices the continuous series into overlapping windows of **99 minutes**.
+A pipeline focusing on disaggregating heavy climate-influenced loads, specifically Washing Machines and Air Conditioners, using the Indian Dataset for Ambient Water and Energy (IAWE).
 
-### Output & Artifacts
-- **Model:** A PyTorch model saved as `nilm_multi_target_model.pth`.
-- **Metrics:** Outputs Mean Absolute Error (MAE) and Signal Aggregate Error (SAE).
-- **Plots:** Generates time-series plots comparing Ground Truth vs. Prediction for both target appliances.
+* **Dataset Context:** Utilizes the IAWE dataset for its 1Hz granularity and real-world simultaneous usage of major cooling and dynamic loads.
+* **Architecture:** Multi-Target Sequence-to-Point (Seq2Point) 1D Convolutional Neural Network.
+* **Data Engineering:** Features a custom HDF5 parser for robust loading, 1-minute resampling over a 99-minute window, and rigorous data normalization for improved model convergence.
+
+## 3. Speed-Optimized Multi-Target Seq2Point
+**Directory:** [`Seq2Point`](./Seq2Point)
+
+A highly optimized Multi-Target Sequence-to-Point (Seq2Point) CNN focusing on disaggregating Washing Machines and Kettles simultaneously, optimized for faster iteration and training times.
+
+* **Architecture:** Seq2Point 1D CNN processing 8-second resolution data over an 80-minute window (599 time steps).
+* **Speed Optimizations:** 
+  * Implements a training stride of 10 to avoid redundant processing.
+  * Utilizes PyTorch Automatic Mixed Precision (AMP) and Tensor Cores for a 1.5x - 2x speedup.
+  * Employs increased batch sizing and multiprocessing for maximized GPU utilization.
+* **Results:** Achieves exceptionally low Mean Absolute Error (MAE) and high F1 scores.
 
 ---
 
-## 📈 Seq2Point Framework
-The **Seq2Point** module is a generic framework designed to train a 1D Convolutional Neural Network (CNN) to map a sequence (window) of mains power to a single point (the center of the window) of the target appliance power.
+## Getting Started
 
-### Architecture
-- **Input:** A sequence of mains power readings (e.g., shape `(Batch, 1, 99)`).
-- **Network:** Multiple 1-D convolutional layers with ReLU activations, followed by fully-connected dense layers.
-- **Output:** The predicted power of the target appliance(s) at the exact midpoint of the input sequence.
-
-### Preprocessing (Seq2Point)
-1. **Data Alignment:** Ensures the mains and appliance data are aligned on the same timestamps.
-2. **Normalization:** Scales the input sequences so the neural network gradients remain stable.
-3. **Sequence-to-Point Generation:** A sliding window moves across the data. For every window of length $W$, the label $Y$ is the actual power of the appliance at index $W/2$.
-
-### Output
-- Saves the trained model weights to disk.
-- Automatically calculates accuracy metrics (MAE, RMSE, F1-score for appliance ON states).
-- Visualizes the disaggregation results.
-
----
-
-## 🚀 How to Run the Project
-**Prerequisite:** Ensure the `handwriting_gen` conda environment is active.
-```bash
-conda activate handwriting_gen
-```
-
-**To generate and run the IAWE Notebook:**
-```bash
-cd /data/Projects/NILM
-python IAWE/create_notebook.py
-jupyter nbconvert --execute IAWE/NILM_IAWE_Disaggregation.ipynb --to html
-```
+Each project is self-contained within its respective directory. Please navigate to the individual directories and refer to their specific `README.md` files for detailed setup instructions, architecture descriptions, and evaluation metrics.
